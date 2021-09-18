@@ -48,13 +48,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2em;
   color: #F9B21B;
-}
-h1 a {
-  color: inherit;
+  line-height: 1.2em;
 }
 
 h2 {
   font-size: 1.5em;
+  text-indent: 0;
 }
 
 h3 {
@@ -71,7 +70,7 @@ p {
   font-size: 1em;
   line-height: 1.75em;
   text-indent: 2em;
-
+  color: dimgray;
 }
 
 a {
@@ -210,6 +209,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  text-indent: 0;
 
   @include mobile {
     margin: 3px 0;
