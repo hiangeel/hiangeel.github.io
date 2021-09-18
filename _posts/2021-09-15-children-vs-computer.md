@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \[Trans\] Children vs Computer
+title: \[Trans] Children vs Computer
 ---
 
 # Original Vietnamese content
