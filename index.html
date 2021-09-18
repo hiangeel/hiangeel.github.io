@@ -6,10 +6,10 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <div>
-        <div>
+        <div class="column-left">
           <a href="{{ site.baseurl }}{{ post.url }}" class="post-thumbnail"><img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}" /></a>
         </div>
-        <div>
+        <div class="column-right">
           <h1 style="color: #666; font-size: larger;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
           <div class="date" style="font-size: medium">
             {{ post.date | date: "%B %e, %Y" }}
