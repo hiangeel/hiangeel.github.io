@@ -54,15 +54,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4em;
-}
-
-h3 {
   font-size: 1.3em;
 }
 
-h4 {
+h3 {
   font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
   color: #666;
 }
 
@@ -75,11 +75,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #F9B21B;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #F9B21B;
   }
 }
 
