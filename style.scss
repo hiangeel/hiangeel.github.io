@@ -46,27 +46,32 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
+  font-size: 2em;
+  color: #F9B21B;
+}
+h1 a {
+  color: inherit;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: 1.2em;
+  color: #666;
 }
 
 p {
   margin: 15px 0;
+  font-size: 1em;
+  line-height: 1.75em;
+  text-indent: 2em;
+
 }
 
 a {
@@ -245,7 +250,6 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  text-indent: 2em;
 }
 
 .posts > .post:last-child {
