@@ -72,6 +72,10 @@ p {
   line-height: 1.75em;
   text-indent: 2em;
   color: dimgray;
+
+  @include mobile {
+    margin: 0px 10px 0px 10px;
+  }
 }
 
 a {
