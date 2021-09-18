@@ -6,8 +6,8 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1 style="color: #666"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="date" style="font-size: 0.9em">
+      <h1 style="color: #666; font-size: medium;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="date" style="font-size: medium">
         {{ post.date | date: "%B %e, %Y" }}
       </div>
     </article>
