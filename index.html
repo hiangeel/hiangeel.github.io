@@ -5,11 +5,18 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <h1 style="color: #666; font-size: larger;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="date" style="font-size: medium">
-        {{ post.date | date: "%B %e, %Y" }}
+      <div class="row">
+        <div class="column">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="post-avatar"><img src="{{ site.baseurl }}/images/{{ post.avatar }}" /></a>
+        </div>
+        <div class="column">
+          <h1 style="color: #666; font-size: larger;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <div class="date" style="font-size: medium">
+            {{ post.date | date: "%B %e, %Y" }}
+          </div>
+        </div>
       </div>
+      
     </article>
   {% endfor %}
 </div>
