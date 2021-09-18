@@ -52,6 +52,9 @@ h1 {
   a{
     color:inherit;
   }
+  @include mobile {
+    margin-top: 20px;
+  }
 }
 
 h2 {
