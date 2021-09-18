@@ -1,8 +1,7 @@
 ---
 layout: post
-title: [Trans] Children vs Computer
+title: \[Trans\] Children vs Computer
 ---
-Children vs Computers
 
 # Original Vietnamese content
 Việc sử dụng máy tính không giúp trẻ em học một cách hiệu quả hơn. Ngược lại, sử dụng máy tính còn gây ảnh hưởng tiêu cực đến sự phát triển về mặt thể chất và tinh thần của trẻ em. Bạn đồng ý hay không đồng ý?
