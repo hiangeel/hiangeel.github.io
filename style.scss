@@ -34,8 +34,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $gray;
   font-weight: bold;
-
-  line-height: 1.7;
+  text-indent: 0;
+  line-height: 1.2em;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -47,13 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.7em;
-  color: #F9B21B;
-  line-height: 1.2em;
+  a{
+    color: #F9B21B;
+  }
 }
 
 h2 {
   font-size: 1.4em;
-  text-indent: 0;
 }
 
 h3 {
