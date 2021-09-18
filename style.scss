@@ -156,14 +156,6 @@ img {
 // .masthead
 //
 
-.column-left {
-  width: 70px;
-}
-
-.column-right {
-  margin-left: 85px
-}
-
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -185,6 +177,14 @@ img {
     object-fit: cover;
     border-radius: 10px;
   }
+}
+
+.thumbnail-left {
+  width: 70px;
+}
+
+.title-right {
+  margin-left: 80px
 }
 
 .post-cover {
