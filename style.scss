@@ -205,6 +205,9 @@ img {
     height: 250px;
     object-fit: cover;
   }
+  @include mobile {
+    padding: 0 0 20px 0;
+  }
 }
 
 .site-avatar {
