@@ -253,6 +253,21 @@ img {
   }
 }
 
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: $helveticaNeue;
+    font-size: 0.9em;
+  }
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
