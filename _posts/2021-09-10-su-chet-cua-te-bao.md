@@ -1,6 +1,6 @@
 ---
 layout: post
 title: Cơ chế phân tử của sự chết tế bào (P1)
-thumbnail: first-post.png
+cover: first-post.png
 ---
 ## Giới thiệu

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Children vs Computer
-thumbnail: jekyll-logo.png
+cover: jekyll-logo.png
 ---
 Short description
 ## Original Vietnamese content
