@@ -3,16 +3,13 @@ layout: default
 ---
 
 <article class="post">
-  <div> 
+  <div style="padding-bottom: 20px;"> 
     <a class="post-cover"><img src="{{ site.baseurl }}/images/covers/{{ page.cover }}" /></a>
     <h1>{{ page.title }}</h1>
+    <p class="date">Written on {{ page.date | date: "%B %e, %Y" }}</p>
   </div>
   <div class="entry">
     {{ content }}
-  </div>
-
-  <div class="date" style="font-size: 0.9em;">
-    Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
   {% include disqus.html %}
