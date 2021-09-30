@@ -7,6 +7,7 @@ comments: true
   <div style="padding: 20px 0 20px 0;"> 
     <h1>{{ page.title }}</h1>
     <div class="date"> ✍️ {{ page.date | date: "%B %e, %Y" }}</div>
+    <div class="category"><a href="{{ site.baseurl }}/{{ page.category }}"> 📖 {{ page.category }} </a></div>
     <p class="post-cover"><img src="{{ site.baseurl }}/images/covers/{{ page.cover }}" onerror="this.onerror=null; this.src='{{ site.baseurl }}/images/smile.svg'"/></p>
   </div>
   <div class="entry" style="padding-bottom: 10px;">

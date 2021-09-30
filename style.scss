@@ -131,6 +131,17 @@ img {
   color: #888;
 } 
 
+.category {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #333;
+}
+
+.sub-line {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
