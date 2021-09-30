@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="posts">
+  {% for post in site.posts %} { % if post.category == "statistic" %}
+    <article class="post">
+      <div>
+        <div class="thumbnail-left">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="post-thumbnail"><img src="{{ site.baseurl }}/images/covers/{{ post.cover }}" onerror="this.onerror=null; this.src='{{ site.baseurl }}/images/smile.svg'"/></a>
+        </div>
+        <div class="title-right">
+          <h1 style="color: #666; font-size: large"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <div class="date">
+            ✍️ {{ post.date | date: "%B %e, %Y" }}
+          </div>
+        </div>
+      </div>
+      
+    </article>
+    {% endif %}
+  {% endfor %}
+</article>
